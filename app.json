@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Bible Quiz",
+    "slug": "bible-quiz",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#667eea"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "xyz.heritier.quiz",
+      "buildNumber": "2"
+    },
+    "android": {
+      "compileSdkVersion": 36,
+      "targetSdkVersion": 36,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#667eea"
+      },
+      "package": "xyz.heritier.quiz",
+      "edgeToEdgeEnabled": true,
+      "versionCode": 2
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "65ecee08-0ad8-4e09-bade-f7e1f1d1eec2"
+      }
+    }
+  }
+}
